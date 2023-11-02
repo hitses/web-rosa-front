@@ -1,1 +1,179 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// PERSONAL STYLES
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@font-face {
+  font-family: Daydream;
+  src: url("assets/fonts/Daydream.ttf") format("truetype");
+}
+
+:root {
+  --blue: #8fd0dc;
+  --blue-rgb: 143, 208, 220;
+  --blue-contrast: #000000;
+  --blue-contrast-rgb: 0, 0, 0;
+  --blue-shade: #7eb7c2;
+  --blue-tint: #9ad5e0;
+
+  --purple: #5d539f;
+  --purple-rgb: 93, 83, 159;
+  --purple-contrast: #ffffff;
+  --purple-contrast-rgb: 255, 255, 255;
+  --purple-shade: #52498c;
+  --purple-tint: #6d64a9;
+
+  --lilac: #854cff;
+  --lilac-rgb: 133, 76, 255;
+  --lilac-contrast: #ffffff;
+  --lilac-contrast-rgb: 255, 255, 255;
+  --lilac-shade: #7543e0;
+  --lilac-tint: #915eff;
+
+  --garnet: #502d4b;
+  --garnet-rgb: 80, 45, 75;
+  --garnet-contrast: #ffffff;
+  --garnet-contrast-rgb: 255, 255, 255;
+  --garnet-shade: #462842;
+  --garnet-tint: #62425d;
+
+  --grey: #262626;
+  --grey-rgb: 38, 38, 38;
+  --grey-contrast: #ffffff;
+  --grey-contrast-rgb: 255, 255, 255;
+  --grey-shade: #212121;
+  --grey-tint: #3c3c3c;
+
+  --black: #010101;
+  --black-rgb: 1, 1, 1;
+  --black-contrast: #ffffff;
+  --black-contrast-rgb: 255, 255, 255;
+  --black-shade: #010101;
+  --black-tint: #1a1a1a;
+
+  // Font Oxygen
+  --font-oxygen: "Oxygen", sans-serif;
+  --font-daydream: "Daydream", sans-serif;
+}
