@@ -131,47 +131,41 @@ table {
 }
 
 :root {
+  --blue-darkest: #153d45;
+  --blue-darker: #2b7b8a;
   --blue: #8fd0dc;
-  --blue-rgb: 143, 208, 220;
-  --blue-contrast: #000000;
-  --blue-contrast-rgb: 0, 0, 0;
-  --blue-shade: #7eb7c2;
-  --blue-tint: #9ad5e0;
+  --blue-lighter: #c7e7ed;
+  --blue-lightest: #e3f3f6;
 
+  --purple-darkest: #171427;
+  --purple-darker: #2e294f;
   --purple: #5d539f;
-  --purple-rgb: 93, 83, 159;
-  --purple-contrast: #ffffff;
-  --purple-contrast-rgb: 255, 255, 255;
-  --purple-shade: #52498c;
-  --purple-tint: #6d64a9;
+  --purple-lighter: #aca6d1;
+  --purple-lightest: #d5d2e8;
 
+  --lilac-darkest: #1a0052;
+  --lilac-darker: #3400a5;
   --lilac: #854cff;
-  --lilac-rgb: 133, 76, 255;
-  --lilac-contrast: #ffffff;
-  --lilac-contrast-rgb: 255, 255, 255;
-  --lilac-shade: #7543e0;
-  --lilac-tint: #915eff;
+  --lilac-lighter: #c2a5ff;
+  --lilac-lightest: #e0d2fe;
 
+  --garnet-darkest: #140b12;
+  --garnet-darker: #281625;
   --garnet: #502d4b;
-  --garnet-rgb: 80, 45, 75;
-  --garnet-contrast: #ffffff;
-  --garnet-contrast-rgb: 255, 255, 255;
-  --garnet-shade: #462842;
-  --garnet-tint: #62425d;
+  --garnet-lighter: #b983b2;
+  --garnet-lightest: #dcc1d8;
 
+  --grey-darkest: #090909;
+  --grey-darker: #131313;
   --grey: #262626;
-  --grey-rgb: 38, 38, 38;
-  --grey-contrast: #ffffff;
-  --grey-contrast-rgb: 255, 255, 255;
-  --grey-shade: #212121;
-  --grey-tint: #3c3c3c;
+  --grey-lighter: #929292;
+  --grey-lightest: #c8c8c8;
 
-  --black: #010101;
-  --black-rgb: 1, 1, 1;
-  --black-contrast: #ffffff;
-  --black-contrast-rgb: 255, 255, 255;
-  --black-shade: #010101;
-  --black-tint: #1a1a1a;
+  --black: #000000;
+  --black-lighter: #010101;
+  --black-lightest: #808080;
+
+  --facebook: #0973f7;
 
   // Font Oxygen
   --font-oxygen: "Oxygen", sans-serif;
