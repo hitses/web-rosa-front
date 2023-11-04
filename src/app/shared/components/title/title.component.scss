@@ -15,8 +15,8 @@ div {
       span:first-child {
         background: -webkit-linear-gradient(
           270deg,
-          rgba(122, 0, 203, 1) 0%,
-          rgba(143, 208, 220, 1) 10%
+          var(--purple) 0%,
+          var(--blue) 15%
         );
         -webkit-background-clip: text;
         background-clip: text;
@@ -28,8 +28,8 @@ div {
       span:nth-child(2) {
         background: -webkit-linear-gradient(
           270deg,
-          rgba(143, 208, 220, 1) 30%,
-          rgba(122, 0, 203, 1) 70%
+          var(--blue) 30%,
+          var(--lilac) 60%
         );
         -webkit-background-clip: text;
         background-clip: text;
@@ -41,8 +41,8 @@ div {
       span:last-child {
         background: -webkit-linear-gradient(
           270deg,
-          rgba(122, 0, 203, 1) 80%,
-          black 90%
+          var(--lilac) 80%,
+          var(--black) 90%
         );
         -webkit-background-clip: text;
         background-clip: text;
