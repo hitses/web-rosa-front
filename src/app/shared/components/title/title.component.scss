@@ -5,7 +5,8 @@ div {
   div {
     cursor: pointer;
     img {
-      height: 175px;
+      height: 160px;
+      margin-right: 10px;
     }
     h1 {
       width: fit-content;
@@ -36,7 +37,7 @@ div {
         -webkit-text-fill-color: transparent;
         display: inline-block;
         padding-top: 50px;
-        padding-left: 3px;
+        padding-left: 50px;
       }
       span:last-child {
         background: -webkit-linear-gradient(
@@ -50,7 +51,7 @@ div {
         display: inline-block;
         margin-left: -80px;
         padding-top: 100px;
-        padding-left: 3px;
+        padding-left: 83px;
       }
     }
   }
