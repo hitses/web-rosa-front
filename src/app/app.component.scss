@@ -1,5 +1,12 @@
 header {
-  position: relative;
+  position: sticky;
+  top: -205px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+main {
+  font-size: 30px;
   max-width: 1280px;
   margin: 0 auto;
 }
