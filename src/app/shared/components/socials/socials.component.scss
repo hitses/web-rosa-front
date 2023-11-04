@@ -1,9 +1,16 @@
 ul {
-  display: flex;
-  justify-content: end;
   li {
     display: inline-block;
     margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:nth-child(2) {
+      margin-right: 5px;
+    }
+    &:nth-child(3) {
+      margin-right: 3px;
+    }
     a {
       cursor: default;
     }
