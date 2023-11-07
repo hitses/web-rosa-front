@@ -8,6 +8,14 @@ export const routes: Routes = [
       import('./pages/books/books.component').then((m) => m.BooksComponent),
   },
   {
+    path: 'libros/:id',
+    pathMatch: 'full',
+    loadComponent: () =>
+      import('./pages/components/book/book.component').then(
+        (m) => m.BookComponent
+      ),
+  },
+  {
     path: 'sobre-mi',
     pathMatch: 'full',
     loadComponent: () =>
