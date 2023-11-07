@@ -15,6 +15,9 @@ nav {
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
+    img {
+      height: 40px;
+    }
   }
   a:hover {
     text-decoration: underline;
