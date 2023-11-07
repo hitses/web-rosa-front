@@ -2,6 +2,12 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+    path: '',
+    pathMatch: 'full',
+    loadComponent: () =>
+      import('./pages/home/home.component').then((m) => m.HomeComponent),
+  },
+  {
     path: 'libros',
     pathMatch: 'full',
     loadComponent: () =>
@@ -42,7 +48,15 @@ export const routes: Routes = [
       ),
   },
   {
+    path: '404',
+    pathMatch: 'full',
+    loadComponent: () =>
+      import('./pages/not-found/not-found.component').then(
+        (m) => m.NotFoundComponent
+      ),
+  },
+  {
     path: '**',
-    redirectTo: '',
+    redirectTo: '/404',
   },
 ];
