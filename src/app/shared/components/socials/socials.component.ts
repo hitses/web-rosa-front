@@ -20,4 +20,11 @@ import { XComponent } from './icons/x/x.component';
   templateUrl: './socials.component.html',
   styleUrls: ['./socials.component.scss'],
 })
-export class SocialsComponent {}
+export class SocialsComponent {
+  socialLinks = {
+    facebook: '#',
+    instagram: '#',
+    x: '#',
+    tiktok: '#',
+  };
+}

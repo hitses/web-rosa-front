@@ -1,13 +1,10 @@
 <div>
-  <div routerLink="/">
-    <img
-      src="/assets/imgs/feather.png"
-      alt="Logotipo editorial de la escritora española Rosa Celiberti Ribera"
-    />
+  <div routerLink="{{ img.link }}">
+    <img src="{{ img.src }}" alt="{{ img.alt }}" />
     <h1>
-      <span>Rosa</span>
-      <span>Celiberti</span>
-      <span>Ribera</span>
+      <span>{{ title.name }}</span>
+      <span>{{ title.surname }}</span>
+      <span>{{ title.lastname }}</span>
     </h1>
   </div>
 </div>

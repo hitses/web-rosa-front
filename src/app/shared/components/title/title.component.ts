@@ -9,4 +9,16 @@ import { RouterLink } from '@angular/router';
   templateUrl: './title.component.html',
   styleUrls: ['./title.component.scss'],
 })
-export class TitleComponent {}
+export class TitleComponent {
+  img = {
+    link: '/',
+    src: '/assets/imgs/feather.png',
+    alt: 'Logotipo editorial de la escritora española Rosa Celiberti Ribera',
+  };
+
+  title = {
+    name: 'Rosa',
+    surname: 'Celiberti',
+    lastname: 'Ribera',
+  };
+}

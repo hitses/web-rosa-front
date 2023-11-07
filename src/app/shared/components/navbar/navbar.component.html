@@ -1,14 +1,9 @@
 <nav>
-  <a class="logo-link hidden-logo" routerLink="/"
-    ><img
-      src="/assets/imgs/feather.png"
-      alt="Logotipo a color de la escritora española Rosa Celiberti Ribera"
-      height="40px"
+  <a class="{{ navHome.class }}" routerLink="{{ navHome.path }}"
+    ><img src="{{ homeImg.src }}" alt="{{ homeImg.alt }}"
   /></a>
-  <a routerLink="/libros">LIBROS</a>
-  <a routerLink="/sobre-mi">SOBRE MÍ</a>
-  <a routerLink="/noticias">NOTICIAS</a>
-  <a routerLink="/otras-yo">OTRAS YO</a>
-  <a routerLink="/contacto">CONTACTO</a>
-  <app-socials class="social-links hidden-socials"></app-socials>
+  <a *ngFor="let link of navLinks" routerLink="{{ link.path }}">{{
+    link.name
+  }}</a>
+  <app-socials class="{{ socialsClass }}"></app-socials>
 </nav>
